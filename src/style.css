@@ -1,0 +1,56 @@
+html, body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+}
+
+#mainLogo{
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    color: white;
+    height: 400px;
+    background-image: url(../src/img/audience.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#contentMainText{
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+@media (max-width: 600px) {
+    #mainLogo {
+        content: url('../src/img/soundwalkLogo999.jpg');
+    }
+
+    header{
+        height: 200px;
+    }
+
+    #contentMainText{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    #mainLogo {
+        content: url('../src/img/soundwalkLogo1248.jpg');
+    }
+}
+
