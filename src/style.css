@@ -26,12 +26,40 @@ header{
     background-image: url(../src/img/audience.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom: 2px solid rgb(75, 159, 107);
+    border-top: 2px solid rgb(75, 159, 107);
 
 }
 
 #contentMainText{
     font-size: 50px;
     text-shadow: 2px 2px black;
+}
+
+@keyframes flyInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.fly-in-left {
+    animation: flyInLeft 1.9s ease forwards;
+}
+
+.infoSection{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+    border-bottom: 2px solid rgb(75, 159, 107);
+    border-radius: 5px;
+
 }
 
 @media (max-width: 600px) {
