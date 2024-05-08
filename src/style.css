@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: center;
 }
 
 
@@ -38,7 +39,16 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 10px;
-    
+    margin-top: -10px;
+    border-bottom: solid 3px  rgb(75, 159, 107);
+
+}
+
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .selected{
@@ -50,6 +60,7 @@ nav{
 
 #mainLogo{
     width: 100vw;
+    
    
 }
 
@@ -69,6 +80,13 @@ header{
 
 }
 
+#screenTop{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+}
+
 #contentMainText{
     font-size: 50px;
     text-shadow: 2px 2px black;
@@ -84,10 +102,20 @@ header{
     flex-direction: column;
     padding: 10px 30px 10px 30px;
     border-bottom: 2px solid rgb(75, 159, 107);
+    max-width: 1000px;
 
 }
 
+.subheading{
+    color: rgb(146, 171, 232);
+}
 
+#bandmemberImg{
+    height: 200px;
+    width: inherit;
+    object-fit: contain;
+
+}
 
 footer{
     height: 40px;
@@ -96,6 +124,8 @@ footer{
     padding: 5px 20px 5px 0;
     background-color: rgb(29, 26, 101);
     border-top: 2px solid rgb(75, 159, 107);
+    position: sticky;
+    bottom: 0;
 }
 
 
@@ -136,6 +166,7 @@ footer{
 @media (min-width: 601px) and (max-width: 1000px) {
     #mainLogo {
         content: url('../dist/img/soundwalkLogo1248.jpg');
+        max-height: 200px;
     }
 
    
@@ -146,8 +177,10 @@ footer{
 }
 
 @media (min-width: 1001px){
+    
     nav{
         padding: 0 200px 10px 200px;
+        
     }
 }
 
