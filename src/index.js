@@ -33,7 +33,7 @@ if (window.location.pathname.includes('pages/Gigs.html') || window.location.path
 
    
         displayGig('The Red Lion, Earsdon','Sat 1st June 2024','20:00');
-        displayGig('Cullercoats Crescent Club', 'Fri 5th July 2024', '20:00')
+        displayGig('Cullercoats Crescent Club', 'Fri 2nd Aug 2024', '20:00')
 
   
     
