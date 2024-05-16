@@ -28,7 +28,6 @@ if (window.location.pathname.includes('pages/Gigs.html') || window.location.path
         gigItem.appendChild(startTimeHolder);
     
         page.appendChild(gigItem)
-        console.log('bum')
     }
 
    
