@@ -112,7 +112,7 @@ header{
 }
 
 .bandMember{
-    width: 300px;
+    width: 70%;
    margin-bottom: 40px;
 }
 
@@ -248,6 +248,14 @@ color: rgb(75, 159, 107);
 font-weight: 800;
 }
 
+#dateHolder{
+
+}
+
+#startTimeHolder{
+
+}
+
 
 
 
@@ -284,6 +292,10 @@ font-weight: 800;
     .YTVid{
     width: 300px;
     height: 169px; 
+    }
+
+    .bandMember{
+        width: 300px;
     }
   
 }
