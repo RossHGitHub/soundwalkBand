@@ -259,8 +259,7 @@ footer{
 
 
 #gigItem{
-min-width: 270px;
-max-width: 500px;
+width: 270px;
 border :2px solid rgb(75, 159, 107);
 border-radius: 10px;
 margin: 10px;
