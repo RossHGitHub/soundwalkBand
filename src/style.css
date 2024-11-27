@@ -109,6 +109,7 @@ nav {
     background-image: url(../dist/img/soundwalkThreeStories.jpeg);
     background-position: center;
     background-size: cover;
+    font-size: 40px;
 
     background-repeat: no-repeat;
 
@@ -177,14 +178,15 @@ nav {
     object-position: -10px;
 }
 
+
 footer {
-    height: 50px;
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 5px 20px 5px 0;
-    background-color: rgb(29, 26, 101);
+    background-color: rgb(0, 0, 0);
     border-top: 2px solid rgb(75, 159, 107);
     position: sticky;
     bottom: 0;
@@ -192,6 +194,10 @@ footer {
 
 .Eliza {
     font-size: 12px;
+}
+
+.Fraser{
+    color: rgb(75, 159, 107);
 }
 
 .contactPage {
@@ -261,6 +267,9 @@ footer {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
 }
 
 .YTVid {
@@ -277,8 +286,7 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(75, 159, 107);
     margin-bottom: 60px;
-    height: 315px;
-    width: 560px;
+    width: 315px;
 }
 
 #showsPage {
@@ -361,6 +369,10 @@ footer {
     .YTVid {
         width: 300px;
         height: 169px;
+    }
+
+    .YTVidVert {
+        width: 300px;
     }
 
     .bandMember {
