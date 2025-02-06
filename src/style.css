@@ -278,7 +278,6 @@ iframe{
 }
 
 #mediaPage {
-    width: 100vw;
     flex: 1;
     display: flex;
     flex-direction: column;
