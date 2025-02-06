@@ -14,6 +14,17 @@ module.exports = {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.(mp4|mov|webm)$/, // Add video file types here
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'assets/videos/[name].[hash].[ext]', // Customize output file name and path
+            },
+          },
+        ],
+      },
     ],
-  }
+  },
 };
